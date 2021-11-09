@@ -1,0 +1,13 @@
+Output 1:
+
+Enter your balance: 5000
+Enter total amount: 2800
+Acct new balance: 2200.00
+
+
+
+Output 2:
+
+Enter your balance: 2500
+Enter total amount: 3000
+TRANSACTION NOT ALLOWED

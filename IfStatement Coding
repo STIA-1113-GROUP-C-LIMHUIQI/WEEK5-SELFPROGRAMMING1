@@ -1,26 +1,17 @@
 package selfLearning;
 
-import java.util.Scanner;
-
-public class IfLogical {
+public class IfStatement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		double balance, amount;
-		Scanner scan = new Scanner (System.in);
+		double y=15.0;
+		double x=25.0;
 		
-		System.out.print("Enter the balance: ");
-		balance = scan.nextDouble();
-		
-		System.out.print("Enter the amount: ");
-		amount = scan.nextDouble();
-		
-		if ((amount <= 1000) && (amount <= balance))
-		{
-			balance = balance - amount;
-			System.out.print("Acct new balance = " + balance);
-		}
+		if (y!=x)
+	     System.out.println("Result : y not equal x");
+
+
 	}
 
 }

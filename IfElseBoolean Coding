@@ -1,0 +1,28 @@
+package selfLearning;
+
+import java.util.Scanner;
+
+public class IfElseBoolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Please enter your age: ");
+		age = scan.nextInt();
+		
+		if ((age >= 25) && (age <= 50))
+		{
+			System.out.print("You are qualified to apply");
+		}
+		
+		else
+		{
+			System.out.print("You are NOT qualified to apply");
+		}
+
+	}
+
+}

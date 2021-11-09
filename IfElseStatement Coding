@@ -1,0 +1,32 @@
+package selfLearning;
+
+import java.util.Scanner;
+
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float balance, amount;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Enter your balance: ");
+		balance = scan.nextFloat();
+		
+		System.out.print("Enter total amount: ");
+		amount = scan.nextFloat();
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.printf("Acct new balance: %.2f" ,balance);
+		}
+		
+		else
+		{
+			//balance = balance - OVERDRAFT_PENALTY;
+			System.out.println("TRANSACTION NOT ALLOWED");
+		}
+	}
+
+}
